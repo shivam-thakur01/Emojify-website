@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/CSS/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>The video element</h1>
+    <video id="video-element" width="0" height="0" autoplay="true">
+    </video>
+    <div>
+        <button type="submit" id="click-photo" class="btn btn-primary">Click photo</button>
+    </div>
+    <div>
+        <canvas id="canvas" width="400" height="300">
+            <h1>you</h1>
+        </canvas>
+    </div>
+
+    <div id="predictedEmoji" style='font-size:200px;'>
+    </div>
+    <p style="font-size: 20px;" id="predictedExp">Click a photo to get the expression</p>
+</body>
+<script src="/static/javascript/photoClick.js"></script>
+
+</html>
