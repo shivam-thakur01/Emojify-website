@@ -1,0 +1,7 @@
+Django==3.2.9
+djangorestframework==3.14.0
+imageio==2.27.0
+keras==2.8.0
+matplotlib==3.5.1
+numpy==1.22.1
+opencv_python==4.5.5.64
